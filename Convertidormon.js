@@ -84,7 +84,6 @@ function solicitarDatos() {
 function ejecutarConversor() {
 	const result = solicitarDatos();
 
-	
 	if (!result) {
 		return;
 	}
